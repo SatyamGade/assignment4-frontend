@@ -2,7 +2,7 @@ import { createContext, useContext, useEffect, useState } from "react";
 
 export const DataContext = createContext();
 
-const URL = "http://localhost:5000/admin/dashboard";
+const URL = "https://assignment4-backend.vercel.app/admin/dashboard";
 
 export const DataProvider = ({ children }) => {
 
